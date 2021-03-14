@@ -1,0 +1,15 @@
+.maskLoading{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(4px);
+  svg {
+    height: 50px;
+  }
+}

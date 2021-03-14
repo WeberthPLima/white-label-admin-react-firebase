@@ -1,0 +1,23 @@
+.mainHeader {
+  padding: 30px;
+  background: var(--color-primary);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  box-shadow: 6px 0px 10px rgba(0,0, 0, 0.5);
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  h1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  span{
+    color: white;
+    display: block;
+    text-align: center;
+  }
+}

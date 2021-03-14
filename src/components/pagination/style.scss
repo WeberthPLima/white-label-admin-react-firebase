@@ -1,0 +1,25 @@
+.pagination{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+  button{
+    margin-left: 20px;
+    min-width: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--color-primary);
+    color: var(--color-primary);
+    background: var(--color-white);
+    svg {
+      fill: var(--color-primary);
+      height: 14px;
+    }
+  }
+  .prev{
+    transform: rotate(180deg);
+
+  }
+}
